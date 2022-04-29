@@ -100,24 +100,24 @@ const params = [
 		return el }
 	})
 	
-	const message1 = `Саня, с ДНЕМ РОЖДЕНИЯ. Желаю тебе ${make_main},`
-	const message2 =	`Увидеть ${make_toSee},`
-	const message3 =	`добравшись туда на ${make_transport}.`
-	const message4 =	`Обрести счастье с ${make_happyWhith},` 
-	const message5 =	`Зарабатывать много ${make_mony} (примерно 1 000 000 грн),`
-	const message6 =	`Конечно же ${make_doInDota} на миду)`
-	const message7 =	`Прожить минимум ${randomNumberLife} лет, а это ${randomNumberLife * 365} дней,`
-	const message8 =	`или ${randomNumberLife * 365 * 24} часов, или ${randomNumberLife * 365 * 24 * 60} минут,` 
-	const message9 =	`ну или ${randomNumberLife * 365 * 24 * 60 * 60} секунд.`
-	const message10 =	`За это время ты можешь успеть ${(randomNumberLife * 365 * 24 * 60 * 60)/ 2.5} раза моргнуть или`
-	const message11 =	`сыграть ${(randomNumberLife * 365 * 24 * 60) / 2} в турбо)`;
+	const message = `Саня, с ДНЕМ РОЖДЕНИЯ. Желаю тебе ${make_main},
+Увидеть ${make_toSee},
+добравшись туда на ${make_transport}.
+Обрести счастье с ${make_happyWhith},
+Зарабатывать много ${make_mony} (примерно 1 000 000 грн),
+Конечно же ${make_doInDota} на миду)
+Прожить минимум ${randomNumberLife} лет, а это ${randomNumberLife * 365} дней,
+или ${randomNumberLife * 365 * 24} часов, или ${randomNumberLife * 365 * 24 * 60} минут,
+ну или ${randomNumberLife * 365 * 24 * 60 * 60} секунд.
+	За это время ты можешь успеть ${(randomNumberLife * 365 * 24 * 60 * 60)/ 2.5} раза моргнуть или
+	сыграть ${(randomNumberLife * 365 * 24 * 60) / 2} в турбо)`;
 
 
 const mainBTN = document.getElementById(`mainEl`)
 
 mainBTN.addEventListener(`click`, ()  =>  {
-	document.createElement('div').textContent = message1
-	document.body.append(message1)
+	document.createElement('div').textContent = message
+	document.body.append(message)
 })
 
 //console.log(mainBTN)
