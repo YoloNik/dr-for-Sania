@@ -112,7 +112,7 @@ const params = [
 или ${randomNumberLife * 365 * 24} часов, или ${randomNumberLife * 365 * 24 * 60} минут,
 	ну или ${randomNumberLife * 365 * 24 * 60 * 60} секунд.
 	За это время ты можешь успеть ${(randomNumberLife * 365 * 24 * 60 * 60)/ 2.5} раза моргнуть 
-	или сыграть ${machInDota} партий в турбо).` ;
+	или сыграть ${machInDota} партий в турбо). ` ;
 
 const mainBTN = document.getElementById(`mainEl`)
 const mainDiv = document.querySelector("div")
